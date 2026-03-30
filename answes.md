@@ -77,7 +77,7 @@ def sanitize_notes(notes):
 
 records = []
 
-for page in range(1, 21):  # Reduced scope
+for page in range(1, 21):
     response = requests.get(API_URL, params={"page": page, "key": API_KEY})
 
     if response.status_code != 200:
@@ -100,7 +100,7 @@ save_to_database(records)
 
 ---
 
-## 🔑 Key Improvements
+## Key Improvements
 
 * Secured API credentials
 * Reduced data collection
