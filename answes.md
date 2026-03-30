@@ -58,7 +58,7 @@ for page in range(1, 101):
 * Stores raw sensitive patient data permanently
 * Violates data minimization and privacy principles
 
-### ✅ Fix
+### Fix
 
 * Limit API usage
 * Apply rate limiting
